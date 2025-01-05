@@ -1,0 +1,4 @@
+Task ID: HumanEval/10
+Description:
+Test if given string is a palindrome
+Entry Point: make_palindrome

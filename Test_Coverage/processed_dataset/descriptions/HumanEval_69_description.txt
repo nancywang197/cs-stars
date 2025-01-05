@@ -1,0 +1,3 @@
+Task ID: HumanEval/69
+No description provided.
+Entry Point: search

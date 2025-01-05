@@ -1,0 +1,11 @@
+from functions.HumanEval_120 import maximum
+
+def test_HumanEval_120():
+  assert maximum([-1, 0, 2, 5, 3, -10], 2) == [3, 5]
+  assert maximum([1, 0, 5, -7], 1) == [5]
+  assert maximum([4, -4], 2) == [-4, 4]
+  assert maximum([-10, 10], 2) == [-10, 10]
+  
+  # Check some edge cases that are easy to work out by hand.
+  assert maximum([1, 2, 3, -23, 243, -400, 0], 0) == []
+  

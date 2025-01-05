@@ -1,0 +1,3 @@
+Task ID: HumanEval/71
+No description provided.
+Entry Point: triangle_area

@@ -1,0 +1,4 @@
+Task ID: HumanEval/38
+Description:
+returns encoded string by cycling groups of three characters.
+Entry Point: decode_cyclic

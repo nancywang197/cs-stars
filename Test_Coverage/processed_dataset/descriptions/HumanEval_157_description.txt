@@ -1,0 +1,3 @@
+Task ID: HumanEval/157
+No description provided.
+Entry Point: right_angle_triangle
