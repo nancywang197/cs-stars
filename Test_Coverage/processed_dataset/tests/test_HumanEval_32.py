@@ -1,4 +1,4 @@
-from functions.HumanEval_32 import find_zero
+from functions.HumanEval_32 import find_zero, poly
 
 def test_HumanEval_32():
      import math

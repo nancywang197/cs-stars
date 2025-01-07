@@ -1,4 +1,4 @@
-from functions.HumanEval_38 import decode_cyclic
+from functions.HumanEval_38 import decode_cyclic, encode_cyclic
 
 def test_HumanEval_38():
      from random import randint, choice

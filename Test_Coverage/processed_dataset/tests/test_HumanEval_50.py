@@ -1,4 +1,4 @@
-from functions.HumanEval_50 import decode_shift
+from functions.HumanEval_50 import decode_shift, encode_shift
 
 def test_HumanEval_50():
      from random import randint, choice
