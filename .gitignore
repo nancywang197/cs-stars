@@ -2,6 +2,9 @@
 .venv/
 .pytest_cache/
 __pycache__/
+rand.ipynb
+HumanEval3_q1.txt
+HumanEval3_q2.txt
 
 # Ignore other common files
 *.pyc
