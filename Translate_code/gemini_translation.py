@@ -23,7 +23,7 @@ Python code:
 response = model.generate_content(prompt)
 
 # Write the translated Java code
-output_directory = r"translated_data/functions"
+output_directory = r"Translate_code/translated_data/functions"
 os.makedirs(output_directory, exist_ok=True)
 
 # Path for the new Java file
