@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Main {
+public class HumanEval_116 {
 
     /**
      * Sorts an array of integers based on the number of '1' bits in their binary representation.

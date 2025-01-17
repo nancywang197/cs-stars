@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_104 {
     public static List<Integer> uniqueDigits(int[] x) {
         Set<Integer> oddDigitElements = new HashSet<>();
         for (int i : x) {

@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class Main {
+public class HumanEval_133 {
     /**
      * Calculate the sum of squares for a given list of integers.
      *

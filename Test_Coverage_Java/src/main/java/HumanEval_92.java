@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_92 {
     public static boolean anyInt(int x, int y, int z) {
         // Check if all numbers are integers
         if (!(x instanceof Integer && y instanceof Integer && z instanceof Integer)) {

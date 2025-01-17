@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_121 {
     public static int solution(int[] lst) {
         int sum = 0;
         for (int i = 0; i < lst.length; i++) {

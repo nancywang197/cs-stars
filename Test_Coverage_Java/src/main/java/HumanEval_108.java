@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_108 {
     public static int countPositiveNumbers(int[] arr) {
         // Helper method to calculate the sum of digits of a number
         private static int sumOfDigits(int num) {

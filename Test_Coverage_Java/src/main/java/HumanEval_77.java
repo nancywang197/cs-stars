@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_77 {
     public static boolean isCube(int a) {
         // Take absolute value of 'a' to handle negative numbers
         int absA = Math.abs(a);

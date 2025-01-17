@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_82 {
     public static boolean primeLength(String string) {
         int length = string.length();
         if (length <= 1) {

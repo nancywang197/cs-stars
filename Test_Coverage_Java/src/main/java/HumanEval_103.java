@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_103 {
 
     /**
      * Calculates the rounded average of a series of numbers from n to m (inclusive).

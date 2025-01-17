@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class HumanEval_141 {
 
     public static String fileNameCheck(String fileName) {
         // Define a list of supported suffixes

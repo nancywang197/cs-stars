@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_26 {
     public static List<Integer> removeDuplicates(List<Integer> numbers) {
         Map<Integer, Integer> counter = new HashMap<>();
         

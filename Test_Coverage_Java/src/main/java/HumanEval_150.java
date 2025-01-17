@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_150 {
     public static int xOrY(int n, int x, int y) {
         if (n == 1) {
             return y;

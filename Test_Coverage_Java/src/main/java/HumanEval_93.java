@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class HumanEval_93 {
     public static String encode(String message) {
         // Define the vowel mapping
         Map<Character, Character> vowelMapping = new HashMap<>();

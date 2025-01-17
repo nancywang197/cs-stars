@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_144 {
     public static boolean simplifyFraction(String x, String n) {
         // Split the input strings into numerator and denominator parts
         String[] numPartsX = x.split("/");

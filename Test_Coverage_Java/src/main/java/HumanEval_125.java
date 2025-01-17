@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_125 {
     public static Object splitWords(String txt) {
         if (txt.contains(" ")) {
             return txt.split("\\s+");

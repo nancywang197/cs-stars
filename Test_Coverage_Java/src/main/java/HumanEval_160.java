@@ -1,4 +1,4 @@
-public class Algebra {
+public class HumanEval_160 {
 
     public static double doAlgebra(String[] operator, int[] operand) {
         String expression = String.valueOf(operand[0]);

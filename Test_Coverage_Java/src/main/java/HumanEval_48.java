@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_48 {
     public static boolean isPalindrome(String text) {
         int left = 0;
         int right = text.length() - 1;

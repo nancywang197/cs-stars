@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_40 {
 
     /**
      * Returns true if there are three elements in the list that sum up to zero, false otherwise.

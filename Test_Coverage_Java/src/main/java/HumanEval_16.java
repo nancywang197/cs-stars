@@ -1,6 +1,4 @@
-public class Main {
-    
-
+public class HumanEval_16 {
     /**
      * Returns the number of distinct characters in a given string.
      *

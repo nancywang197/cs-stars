@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_148 {
 
     public static String[] bf(String planet1, String planet2) {
         // Define the planets in order from closest to farthest from the Sun

@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_115 {
     /**
      * Calculate the maximum fill for a given grid with a specified capacity.
      *

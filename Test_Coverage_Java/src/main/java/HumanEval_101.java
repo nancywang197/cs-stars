@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_101 {
     public static String wordsString(String s) {
         if (s == null || s.isEmpty()) {
             return "";

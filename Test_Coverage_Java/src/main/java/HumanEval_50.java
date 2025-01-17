@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_50 {
 
     public static String encodeShift(String s) {
         StringBuilder result = new StringBuilder();

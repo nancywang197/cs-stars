@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Main {
+public class HumanEval_158 {
     public static String findMax(String[] words) {
         Arrays.sort(words, new Comparator<String>() {
             @Override

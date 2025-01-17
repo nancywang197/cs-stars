@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_110 {
 
 
     public static String exchange(int[] lst1, int[] lst2) {

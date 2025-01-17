@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_18 {
 
     /**
      * Returns the number of occurrences of a given substring in a string.

@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_31 {
     public static boolean isPrime(int n) {
         if (n < 2) {
             return false;

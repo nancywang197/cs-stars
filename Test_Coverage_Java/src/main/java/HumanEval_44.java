@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_44 {
     public static String changeBase(int x, int base) {
         StringBuilder ret = new StringBuilder();
         

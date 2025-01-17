@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_51 {
     public static String removeVowels(String text) {
         char[] vowels = {"a", "e", "i", "o", "u"};
         StringBuilder result = new StringBuilder();

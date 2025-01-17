@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class HumanEval_106 {
     public static ArrayList<Integer> f(int n) {
         ArrayList<Integer> ret = new ArrayList<>();
         for (int i = 1; i <= n; i++) {

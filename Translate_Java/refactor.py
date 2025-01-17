@@ -1,7 +1,7 @@
 import os
 
 # Path to the directory where the files are located
-folder_path = '/Test_Coverage_Java/src/main/java'
+folder_path = 'Test_Coverage_Java/src/main/java'
 
 # Function to replace 'public class Main' with 'public class [filename]'
 def replace_class_name_in_file(file_path, filename):

@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_102 {
     /**
      * Returns a number or -1 based on given conditions.
      *

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_72 {
 
     public static boolean willItFly(int[] q, int w) {
         if (Arrays.stream(q).sum() > w) {

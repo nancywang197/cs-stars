@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_143 {
     public static String wordsInSentence(String sentence) {
         String[] words = sentence.split("\\s+");
         List<String> newLst = new ArrayList<>();

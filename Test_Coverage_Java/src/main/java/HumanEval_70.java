@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_70 {
     /**
      * Given list of integers, return list in strange order.
      * Strange sorting, is when you start with the minimum value,

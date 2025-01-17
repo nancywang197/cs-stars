@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_154 {
     public static boolean cycPatternCheck(String a, String b) {
         int lenB = b.length();
         String[] patterns = {b, b + b};

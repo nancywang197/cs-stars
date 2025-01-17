@@ -1,7 +1,7 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Main {
+public class HumanEval_91 {
     public static int isBored(String s) {
         // Use regular expression to split the string into sentences
         String[] sentences = Pattern.compile("[.?!]").split(s);

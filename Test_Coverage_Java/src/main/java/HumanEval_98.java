@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_98 {
     public static int countVowels(String s) {
         int count = 0;
         for (int i = 0; i < s.length(); i += 2) {

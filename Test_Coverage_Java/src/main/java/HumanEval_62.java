@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
-public class Main {
+public class HumanEval_62 {
     public static List<Integer> derivative(List<Integer> xs) {
         int resultSize = xs.size() - 1;
         Integer[] result = new Integer[resultSize];

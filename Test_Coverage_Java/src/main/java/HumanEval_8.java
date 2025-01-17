@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_8 {
     public static int[] sumProduct(int[] numbers) {
         int sumValue = 0;
         long prodValue = 1;

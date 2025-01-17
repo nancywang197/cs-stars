@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_36 {
 
     /**
      * This method calculates the total number of occurrences of '7' 

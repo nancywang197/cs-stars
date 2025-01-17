@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_69 {
     public static int search(int[] lst) {
         // Create an array to store frequency of each number
         int[] freq = new int[lst.length + 1];

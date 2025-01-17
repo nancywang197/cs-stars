@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_120 {
 
     public static int[] maximum(int[] arr, int k) {
         if (k == 0) {

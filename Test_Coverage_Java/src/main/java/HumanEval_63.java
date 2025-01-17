@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_63 {
 
     /**
      * Returns the nth Fibonacci number.

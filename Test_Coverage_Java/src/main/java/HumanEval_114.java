@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_114 {
     public static int minSubArraySum(int[] nums) {
         int maxSum = 0;
         long sum = 0; // Use long to avoid overflow issues

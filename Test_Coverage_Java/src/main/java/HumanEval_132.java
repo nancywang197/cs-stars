@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Main {
+public class HumanEval_132 {
 
     public static boolean isNested(String s) {
         Stack<Integer> openingBrackets = new Stack<>();

@@ -1,4 +1,4 @@
-public class MedianCalculator {
+public class HumanEval_47 {
 
     /**
      * Calculates the median of a sorted list.

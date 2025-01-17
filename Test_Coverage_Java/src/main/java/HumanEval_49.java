@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_49 {
     /**
      * Calculates the result of 2^n mod p using modular exponentiation.
      *

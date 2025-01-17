@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_107 {
 
     /**
      * Checks if a number is palindrome.

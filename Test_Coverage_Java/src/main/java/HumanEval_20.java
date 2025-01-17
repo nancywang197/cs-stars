@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_20 {
     public static List Double> findClosestElements(double[] numbers) {
         double minDistance = Double.MAX_VALUE;
         List<Double> closestPair = new ArrayList<>();

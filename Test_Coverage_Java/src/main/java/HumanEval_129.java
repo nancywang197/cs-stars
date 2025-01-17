@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class HumanEval_129 {
 
     public static List<Integer> minPath(int[][] grid, int k) {
         int n = grid.length;

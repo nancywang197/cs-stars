@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_161 {
     public static String solve(String s) {
         StringBuilder newStr = new StringBuilder();
         boolean flag = false;

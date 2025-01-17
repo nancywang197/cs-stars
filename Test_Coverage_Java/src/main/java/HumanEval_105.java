@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_105 {
     public static String[] sortByLength(int[] arr) {
         Map<Integer, String> dic = new HashMap<>();
         for (int i = 1; i <= 9; i++) {

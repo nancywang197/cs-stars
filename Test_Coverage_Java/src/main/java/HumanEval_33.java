@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_33 {
     public static int[] sortThird(int[] arr) {
         // Create a copy of the input array to avoid modifying it in-place.
         int[] arrCopy = Arrays.copyOf(arr, arr.length);

@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_11 {
     public static String stringXOR(String a, String b) {
         StringBuilder result = new StringBuilder();
         int maxLength = Math.max(a.length(), b.length());

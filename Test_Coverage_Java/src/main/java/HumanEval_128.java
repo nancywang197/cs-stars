@@ -1,7 +1,7 @@
 import java.util.stream.Stream;
 import java.util.function.Predicate;
 
-public class Main {
+public class HumanEval_128 {
 
     public static Integer prodSigns(int[] arr) {
         if (arr.length == 0) return null;

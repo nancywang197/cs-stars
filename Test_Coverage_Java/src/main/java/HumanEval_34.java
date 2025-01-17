@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_34 {
     public static List<Integer> unique(List<Integer> l) {
         // Convert list to set
         Set<Integer> set = new HashSet<>(l);

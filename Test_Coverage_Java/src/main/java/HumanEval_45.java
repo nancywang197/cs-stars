@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_45 {
     /**
      * Calculates the area of a right-angled triangle.
      *

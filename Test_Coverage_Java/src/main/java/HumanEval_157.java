@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_157 {
     public static boolean isRightAngleTriangle(int a, int b, int c) {
         // Sort sides in ascending order to simplify the calculation
         int[] sortedSides = {Math.min(a, Math.min(b, c)), 

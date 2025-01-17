@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_94 {
 
 
     public static long skjjakasd(int[] lst) {

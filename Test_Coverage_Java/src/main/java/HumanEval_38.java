@@ -1,4 +1,4 @@
-public class CyclicString {
+public class HumanEval_38 {
 
     /**
      * Encodes a cyclic string by cycling elements in groups of 3.

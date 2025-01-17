@@ -2,7 +2,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class Main {
+public class HumanEval_162 {
     public static String stringToMd5(String text) {
         if (text == null || text.isEmpty()) {
             return null;

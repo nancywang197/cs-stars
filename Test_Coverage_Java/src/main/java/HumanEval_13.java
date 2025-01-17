@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_13 {
     /**
      * Calculates the Greatest Common Divisor of two numbers.
      * 

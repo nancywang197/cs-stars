@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_9 {
     public static List<Integer> rollingMax(int[] numbers) {
         if (numbers.length == 0) {
             return Collections.emptyList();

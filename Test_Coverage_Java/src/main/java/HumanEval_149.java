@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_149 {
     public static List<Integer> sortedListSum(List<Object> lst) {
         // Sort the list in ascending order
         Collections.sort(lst);

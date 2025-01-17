@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_134 {
     public static boolean checkIfLastCharIsALetter(String txt) {
         String[] words = txt.split(" ");
         if (words.length == 0 || words[words.length - 1].length() == 0) {

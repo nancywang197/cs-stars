@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_76 {
     /**
      * Checks if a number is a simple power.
      *

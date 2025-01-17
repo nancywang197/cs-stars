@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_37 {
     public static String sortEven(String[] l) {
         // Separate even and odd elements into two arrays
         String[] evens = Arrays.copyOfRange(l, 0, l.length / 2 * 2);

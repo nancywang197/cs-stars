@@ -1,6 +1,6 @@
 import java.util.regex.Pattern;
 
-public class Main {
+public class HumanEval_99 {
     public static int closestInteger(String value) {
         // Remove trailing zeros if present
         String tempValue = value;

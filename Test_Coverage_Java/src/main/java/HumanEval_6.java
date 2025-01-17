@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class HumanEval_6 {
 
     public static List<Integer> parseNestedParens(String parenString) {
         String[] groups = parenString.split("\\s+");

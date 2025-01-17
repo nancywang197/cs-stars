@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_89 {
     public static String encrypt(String s) {
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
         StringBuilder result = new StringBuilder();

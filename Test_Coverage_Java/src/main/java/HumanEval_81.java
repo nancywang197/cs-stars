@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class HumanEval_81 {
     public static String[] numericalLetterGrade(double[] grades) {
         
         ArrayList<String> letterGrade = new ArrayList<>();

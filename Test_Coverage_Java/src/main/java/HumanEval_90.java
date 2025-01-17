@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.HashSet;
 
-public class Main {
+public class HumanEval_90 {
 
     public static Integer nextSmallest(Integer[] lst) {
         // Remove duplicates and sort the array

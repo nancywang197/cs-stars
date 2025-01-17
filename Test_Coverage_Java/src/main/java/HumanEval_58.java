@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_58 {
     public static List<Object> common(List<Object> list1, List<Object> list2) {
         Set<Object> set = new HashSet<>();
         for (Object e1 : list1) {

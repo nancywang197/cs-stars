@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_136 {
     public static class IntegerResult {
         public Integer smallestNegative;
         public Integer largestPositive;

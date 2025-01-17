@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_64 {
     public static int countVowels(String s) {
         String vowels = "aeiouAEIOU";
         int nVowels = 0;

@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_137 {
     public static String compareOne(String a, String b) {
         // Convert strings to floats with comma as decimal point
         double tempA = convertToDouble(a);

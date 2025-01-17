@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class HumanEval_19 {
     public static String sortNumbers(String numbers) {
         Map<String, Integer> valueMap = new HashMap<>();
         valueMap.put("zero", 0);

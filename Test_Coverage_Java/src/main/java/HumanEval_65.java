@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_65 {
     public static String circularShift(String x, int shift) {
         if (shift >= x.length()) {
             return new StringBuilder(x).reverse().toString();

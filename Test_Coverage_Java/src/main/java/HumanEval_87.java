@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_87 {
 
     public static List<int[]> getRow(List<List<Integer>> lst, int x) {
         // Find coordinates where value equals x and store them in a list

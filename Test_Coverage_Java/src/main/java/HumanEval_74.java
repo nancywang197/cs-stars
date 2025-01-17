@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_74 {
     public static String[] totalMatch(String[] list1, String[] list2) {
         int sum1 = 0;
         for (String str : list1) {

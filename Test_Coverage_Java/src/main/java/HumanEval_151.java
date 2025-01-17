@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_151 {
     public static int doubleTheDifference(int[] lst) {
         // Filter out non-integer, negative numbers and those that contain a decimal point
         int sum = 0;

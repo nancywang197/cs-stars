@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.DateTimeException;
 
-public class Main {
+public class HumanEval_124 {
     public static boolean validDate(String date) {
         try {
             // Convert input string to lower case to handle different month and day representations (e.g., 2/28 vs. February 28)

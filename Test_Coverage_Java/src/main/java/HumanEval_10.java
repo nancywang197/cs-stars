@@ -1,4 +1,4 @@
-public class Palindrome {
+public class HumanEval_10 {
 
     /**
      * Checks if a given string is a palindrome.

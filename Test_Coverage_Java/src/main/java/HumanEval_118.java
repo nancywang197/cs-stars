@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Main {
+public class HumanEval_118 {
     public static String getClosestVowel(String word) {
         if (word.length() < 3) {
             return "";

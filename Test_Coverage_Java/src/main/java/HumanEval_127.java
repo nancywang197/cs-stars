@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_127 {
     public static String intersection(int[] interval1, int[] interval2) {
         boolean isPrime(int num) {
             if (num == 0 || num == 1) {

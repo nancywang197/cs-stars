@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_159 {
     
 
     public static int[][] eat(int number, int need, int remaining) {

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class HumanEval_117 {
 
     public static List<String> selectWords(String s, int n) {
         List<String> result = new ArrayList<>();

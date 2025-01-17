@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_86 {
     public static String anti_shuffle(String s) {
         String[] words = s.split(" ");
         StringBuilder result = new StringBuilder();

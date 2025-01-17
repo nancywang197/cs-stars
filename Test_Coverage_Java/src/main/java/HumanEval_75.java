@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_75 {
 
     private static boolean isPrime(int n) {
         for (int j = 2; j <= Math.sqrt(n); j++) {

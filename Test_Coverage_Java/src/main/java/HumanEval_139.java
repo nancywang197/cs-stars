@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_139 {
 
     /**
      * Calculates the special factorial of a given number.

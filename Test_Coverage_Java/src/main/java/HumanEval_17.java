@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class MusicParser {
+public class HumanEval_17 {
     private static final String NOTE_MAP = "o|.|";
 
     public List<Integer> parseMusic(String musicString) {

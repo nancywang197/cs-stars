@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_43 {
     public static boolean pairsSumToZero(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n - 1; i++) {

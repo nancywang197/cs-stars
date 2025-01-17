@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_83 {
     /**
      * Calculates the value of a sequence where each term is 18 times the previous term,
      * starting from 10 raised to the power of n-2, minus one.
@@ -6,7 +6,7 @@ public class Main {
      * @param n the index of the term in the sequence (starting from 1)
      * @return the nth term in the sequence
      */
-    public static int startsOne Ends(int n) {
+    public static int startsOneEnds(int n) {
         if (n == 1) {
             return 1;
         } else {

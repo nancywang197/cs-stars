@@ -1,4 +1,4 @@
-public class FruitDistribution {
+public class HumanEval_67 {
     public static int calculateFruitDistribution(String s, int n) {
         // Split string by spaces and filter digits
         String[] numbers = s.split(" ");

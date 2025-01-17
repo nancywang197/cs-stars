@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class HumanEval_113 {
     public static List<String> oddCount(List<List<Integer>> lst) {
         List<String> result = new ArrayList<>();
         for (List<Integer> arr : lst) {

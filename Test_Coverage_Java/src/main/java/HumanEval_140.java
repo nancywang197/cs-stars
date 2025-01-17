@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_140 {
     public static String fixSpaces(String text) {
         StringBuilder newText = new StringBuilder();
         int start = 0;

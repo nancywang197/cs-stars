@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_95 {
     public static String checkDictCase(Map<String, Object> dict) {
         if (dict.isEmpty()) {
             return "false";

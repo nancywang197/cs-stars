@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_41 {
     /**
      * Calculates the square of a given number.
      *

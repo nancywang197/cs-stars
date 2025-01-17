@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_142 {
 
     /**
      * This method calculates the sum of squares, cubes or the number itself from a given list.

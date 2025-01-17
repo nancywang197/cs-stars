@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_147 {
 
     public static int getMaxTriples(int n) {
         int[] A = new int[n];

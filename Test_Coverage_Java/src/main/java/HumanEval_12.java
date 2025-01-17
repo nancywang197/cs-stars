@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Optional;
 
-public class Main {
+public class HumanEval_12 {
 
     public static Optional<String> longest(List<String> strings) {
         if (strings.isEmpty()) {

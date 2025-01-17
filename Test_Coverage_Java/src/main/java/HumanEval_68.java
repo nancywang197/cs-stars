@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_68 {
 
     public static Object[] pluck(int[] arr) {
         if (arr.length == 0) return new Object[0];

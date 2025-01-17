@@ -1,4 +1,4 @@
-public class Fibonacci {
+public class HumanEval_46 {
     public static int fib(int n) {
         int[] results = new int[5]; // initializing with [0, 0, 2, 0]
         if (n < 4) {

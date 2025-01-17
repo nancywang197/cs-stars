@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_131 {
     public static long digits(long n) {
         long product = 1;
         int oddCount = 0;

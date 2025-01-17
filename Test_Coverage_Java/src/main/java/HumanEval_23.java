@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_23 {
     
 
     public static int strlen(String string) {

@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_112 {
     public static boolean reverseDelete(String s, String c) {
         StringBuilder sb = new StringBuilder(s);
         int i = 0;

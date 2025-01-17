@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class HumanEval_126 {
 
     public static boolean isSorted(int[] arr) {
         // Check for duplicates (more than 2 of same number)

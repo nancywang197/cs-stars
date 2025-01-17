@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class HumanEval_163 {
     public static List<Integer> generateIntegers(int a, int b) {
         // Ensure that both parameters are greater than or equal to 2
         int lower = Math.max(2, Math.min(a, b));

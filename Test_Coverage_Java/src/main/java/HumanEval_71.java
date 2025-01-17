@@ -1,4 +1,4 @@
-public class TriangleAreaCalculator {
+public class HumanEval_71 {
 
     /**
      * Given the lengths of the three sides of a triangle.

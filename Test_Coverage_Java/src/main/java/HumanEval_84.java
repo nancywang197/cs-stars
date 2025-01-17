@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_84 {
     public static String solve(int N) {
         StringBuilder sb = new StringBuilder();
         

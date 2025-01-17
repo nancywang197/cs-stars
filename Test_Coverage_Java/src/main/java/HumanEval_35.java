@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_35 {
     /**
      * Returns the maximum element from a list.
      *

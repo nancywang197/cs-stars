@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class HumanEval_30 {
     public static List<Integer> getPositiveNumbers(List<Integer> numbers) {
         List<Integer> positiveNumbers = new ArrayList<>();
         for (Integer number : numbers) {

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_109 {
     public static boolean moveOneBall(int[] arr) {
         // Check for empty array
         if (arr.length == 0) {

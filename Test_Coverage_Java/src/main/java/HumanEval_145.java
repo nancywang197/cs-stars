@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Main {
+public class HumanEval_145 {
 
     private static int digitsSum(int num) {
         int neg = 1;

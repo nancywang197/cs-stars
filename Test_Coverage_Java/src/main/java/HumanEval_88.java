@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_88 {
     public static int[] sortArray(int[] array) {
         if (array.length == 0) {
             return new int[0];

@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_135 {
   public static int canArrange(int[] arr) {
     int ind = -1;
     for (int i = 1; i < arr.length; i++) {

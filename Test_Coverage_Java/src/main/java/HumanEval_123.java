@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class CollatzSequence {
+public class HumanEval_123 {
     public static ArrayList<Integer> getOddCollatz(int n) {
         if (n % 2 == 0) {
             ArrayList<Integer> oddCollatz = new ArrayList<>();

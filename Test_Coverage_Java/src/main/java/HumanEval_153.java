@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_153 {
 
     public static String strongestExtension(String className, String[] extensions) {
         if (extensions.length == 0) {

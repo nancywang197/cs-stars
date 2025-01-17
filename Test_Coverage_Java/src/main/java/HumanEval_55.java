@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_55 {
     public static int fib(int n) {
         if (n == 0) {
             return 0;

@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_130 {
     public static int[] tri(int n) {
         if (n == 0) {
             int[] result = new int[1];

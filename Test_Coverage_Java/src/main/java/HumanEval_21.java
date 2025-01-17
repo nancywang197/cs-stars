@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Main {
+public class HumanEval_21 {
 
     /**
      * Rescales a list of numbers to be between 0 and 1.

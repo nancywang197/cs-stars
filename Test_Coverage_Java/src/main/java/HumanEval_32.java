@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class HumanEval_32 {
 
     public static double poly(double[] xs, double x) {
         double sum = 0;

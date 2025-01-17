@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class HumanEval_96 {
     public static ArrayList<Integer> countUpTo(int n) {
         ArrayList<Integer> primes = new ArrayList<>();
 

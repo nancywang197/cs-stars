@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_146 {
     /**
      * Counts numbers in the array where both the first and last digits are odd.
      *

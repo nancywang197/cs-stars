@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_80 {
   public static boolean isHappy(String s) {
     if (s.length() < 3) {
       return false;

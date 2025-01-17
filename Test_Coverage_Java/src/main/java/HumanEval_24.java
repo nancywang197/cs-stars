@@ -1,4 +1,4 @@
-public class Main {
+public class HumanEval_24 {
     /**
      * Returns the largest divisor of a given number.
      *
