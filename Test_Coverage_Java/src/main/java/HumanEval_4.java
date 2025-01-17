@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Main {
+public class HumanEval_4 {
     public static double meanAbsoluteDeviation(List<Double> numbers) {
         if (numbers.isEmpty()) {
             throw new IllegalArgumentException("Cannot calculate MAE for an empty list");

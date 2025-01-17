@@ -24,8 +24,4 @@ public class Main {
         }
         return false;
     }
-
-    ;
-        System.out.println(triplesSumToZero(l)); // prints: true
-    }
 }

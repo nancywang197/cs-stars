@@ -21,7 +21,5 @@ public class Main {
         }
     }
 
-    ;
-        System.out.println(minSubArraySum(nums)); // Output: -10
-    }
+
 }

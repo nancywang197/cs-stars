@@ -2,9 +2,6 @@ import java.util.stream.Stream;
 import java.util.function.Predicate;
 
 public class Main {
-    ;
-        System.out.println(prodSigns(array));
-    }
 
     public static Integer prodSigns(int[] arr) {
         if (arr.length == 0) return null;

@@ -43,11 +43,5 @@ public class Main {
         return result;
     }
 
-    ;
-        String[] gradesResult = numericalLetterGrade(grades);
-        
-        for (String grade : gradesResult) {
-            System.out.println(grade);
-        }
-    }
+
 }

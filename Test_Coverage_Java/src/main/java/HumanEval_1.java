@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HumanEval_1 {
     public static List<String> separateParenGroups(String parenString) {
         List<String> result = new ArrayList<>();
         StringBuilder currentString = new StringBuilder();

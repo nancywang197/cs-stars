@@ -3,11 +3,6 @@ import java.util.Comparator;
 
 public class Main {
 
-    ;
-        int[] sortedArr = sortArray(arr);
-        System.out.println(Arrays.toString(sortedArr));
-    }
-
     /**
      * Sorts an array of integers based on the number of '1' bits in their binary representation.
      *

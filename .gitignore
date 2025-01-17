@@ -8,6 +8,8 @@ HumanEval3_q2.txt
 Translate_Java/functions/
 HumanEval3_java.txt
 Translate_Java/test.py
+Translate_Java/tests/
+Test_Coverage_Java/target/
 
 # Ignore other common files
 *.pyc

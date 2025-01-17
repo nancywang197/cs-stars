@@ -42,9 +42,4 @@ public class Main {
         return ans;
     }
 
-    , {0, 1, 0}, {0, 0, 0}};
-        int k = 3;
-        List<Integer> result = minPath(grid, k);
-        System.out.println(result);
-    }
 }

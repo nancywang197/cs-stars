@@ -33,7 +33,4 @@ public class Main {
         return words[0];
     }
 
-    ;
-        System.out.println(findMax(words));
-    }
 }

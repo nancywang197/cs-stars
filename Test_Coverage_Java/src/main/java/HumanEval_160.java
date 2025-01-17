@@ -36,10 +36,4 @@ public class Algebra {
         }
         return result;
     }
-
-    ;
-        String operator[] = {"+", "*", "/"};
-        System.out.println("Expression: " + operand[0] + operator[0] + operand[1] + operator[1] + operand[2]);
-        System.out.println("Result: " + doAlgebra(operator, operand));
-    }
 }

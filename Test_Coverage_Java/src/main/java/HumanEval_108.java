@@ -26,7 +26,4 @@ public class Main {
         return count;
     }
 
-    ;
-        System.out.println(countPositiveNumbers(array)); // Output: 3
-    }
 }

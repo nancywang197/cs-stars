@@ -34,8 +34,4 @@ public class Main {
 
         return begin;
     }
-
-    ;
-        System.out.println("Zero found: " + findZero(xs));
-    }
 }

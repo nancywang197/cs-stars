@@ -18,8 +18,4 @@ public class Main {
         }
         return max;
     }
-
-    ;
-        System.out.println("Maximum element: " + maxElement(numbers));
-    }
 }

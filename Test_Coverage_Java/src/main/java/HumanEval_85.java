@@ -9,7 +9,5 @@ public class Main {
         return sum;
     }
 
-    ;
-        System.out.println(add(numbers));
-    }
+
 }

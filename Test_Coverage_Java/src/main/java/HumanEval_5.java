@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class HumanEval_5 {
     public static List<Integer> intersperse(List<Integer> numbers, int delimiter) {
         if (numbers.isEmpty()) {
             return new ArrayList<>();

@@ -35,8 +35,4 @@ public class Main {
         return alphaCountUpper - alphaCountLower;
     }
 
-    ;
-
-        System.out.println(strongestExtension(className, extensions));
-    }
 }

@@ -23,8 +23,4 @@ public class Main {
         // Return the result as a string
         return ans.toString();
     }
-
-    ;
-        System.out.println(sortEven(l));
-    }
 }

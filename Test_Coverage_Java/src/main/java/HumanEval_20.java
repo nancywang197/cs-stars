@@ -22,9 +22,4 @@ public class Main {
 
         return closestPair;
     }
-
-    ;
-        List<Double> result = findClosestElements(numbers);
-        System.out.println(result);
-    }
 }

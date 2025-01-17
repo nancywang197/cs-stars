@@ -14,12 +14,7 @@ def extract_code(input_str):
     # Regular expression to capture content inside the '```java` and '```' markers
     match = re.search(r'```java(.*?)```', input_str, re.DOTALL)
     if match:
-        # Extract the code and remove the `main` method and its body
         code = match.group(1).strip()
-
-        # Regular expression to remove the `main` method
-        code = re.sub(r'public static void main\(String\[\] args\) \{.*?\}', '', code, flags=re.DOTALL)
-        
         return code.strip()
     return ""
 

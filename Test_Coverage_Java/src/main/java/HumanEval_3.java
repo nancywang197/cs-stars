@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Main {
+public class HumanEval_3 {
     public static boolean belowZero(List<Integer> operations) {
         int balance = 0;
 

@@ -12,7 +12,4 @@ public class Main {
         return new ArrayList<>(oddDigitElements);
     }
 
-    ;
-        System.out.println(uniqueDigits(numbers));
-    }
 }

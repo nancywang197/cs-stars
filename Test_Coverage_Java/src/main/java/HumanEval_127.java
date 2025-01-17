@@ -24,8 +24,4 @@ public class Main {
         return "NO";
     }
 
-    ;
-        int[] interval2 = {4, 8};
-        System.out.println(intersection(interval1, interval2));
-    }
 }

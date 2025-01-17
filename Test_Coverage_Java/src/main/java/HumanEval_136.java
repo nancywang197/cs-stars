@@ -2,16 +2,6 @@ import java.util.List;
 import java.util.Arrays;
 
 public class Main {
-    ;
-        System.out.println(largestSmallestIntegers(lst));
-        
-        int[] emptyList = {};
-        System.out.println(largestSmallestIntegers(emptyList));
-        
-        int[] singleElementList = {0};
-        System.out.println(largestSmallestIntegers(singleElementList));
-    }
-
     public static class IntegerResult {
         public Integer smallestNegative;
         public Integer largestPositive;

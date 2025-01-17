@@ -10,8 +10,4 @@ public class Main {
         }
         return false;
     }
-
-    ;
-        System.out.println(pairsSumToZero(array));  // prints: true
-    }
 }

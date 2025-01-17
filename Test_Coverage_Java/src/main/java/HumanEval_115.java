@@ -1,9 +1,4 @@
 public class Main {
-    , {3.0, 4.0}};
-        int capacity = 5;
-        System.out.println(maxFill(grid, capacity));
-    }
-
     /**
      * Calculate the maximum fill for a given grid with a specified capacity.
      *

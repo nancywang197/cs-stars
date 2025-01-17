@@ -15,16 +15,4 @@ public class Main {
         return true;
     }
 
-    ;
-        System.out.println(willItFly(test1, 5));  // Should print: false
-
-        int[] test2 = {3, 2, 3};
-        System.out.println(willItFly(test2, 1));  // Should print: false
-
-        int[] test3 = {3, 2, 3};
-        System.out.println(willItFly(test3, 9));  // Should print: true
-
-        int[] test4 = {3};
-        System.out.println(willItFly(test4, 5));  // Should print: true
-    }
 }

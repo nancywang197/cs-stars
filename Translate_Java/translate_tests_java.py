@@ -14,12 +14,7 @@ def extract_code(input_str):
     # Regular expression to capture content inside the '```java` and '```' markers
     match = re.search(r'```java(.*?)```', input_str, re.DOTALL)
     if match:
-        # Extract the code and remove the `main` method and its body
         code = match.group(1).strip()
-
-        # Regular expression to remove the `main` method
-        code = re.sub(r'public static void main\(String\[\] args\) \{.*?\}', '', code, flags=re.DOTALL)
-        
         return code.strip()
     return ""
 
@@ -44,7 +39,7 @@ def remove_main_method(code):
 # Initialize Ollama with chosen model
 llm = Ollama(model="llama3.2")
 
-for i in range(164):
+for i in range(44,164):
     # 1. Extract Python function
     # tests >> test_HumanEval_1.py
     num = i
@@ -64,7 +59,7 @@ for i in range(164):
 
     # 5. Write to file
     folder_path = os.path.join("Test_Coverage_Java", "src", "test", "java", f'test_HumanEval_{num}.java')
-    with open(folder_path, 'w', encoding="utd-8") as file:
+    with open(folder_path, 'w', encoding="utf-8") as file:
         file.write(t)
     
     copy_path = os.path.join("Translate_Java", "tests", f'test_HumanEval_{num}.txt')

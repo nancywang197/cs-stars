@@ -17,7 +17,4 @@ public class MedianCalculator {
         }
     }
 
-    ;
-        System.out.println("Median: " + calculateMedian(numbers));
-    }
 }

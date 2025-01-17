@@ -10,9 +10,4 @@ public class Main {
         return Arrays.copyOfRange(arr, arr.length - k, arr.length);
     }
 
-    ;
-        int k = 3;
-        int[] result = maximum(arr, k);
-        System.out.println(Arrays.toString(result));
-    }
 }

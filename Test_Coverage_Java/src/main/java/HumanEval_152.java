@@ -9,11 +9,5 @@ public class Main {
         return result;
     }
 
-    ;
-        int[] guess = {4, 5, 6};
-
-        double[] result = compare(game, guess);
-        
-        System.out.println(Arrays.toString(result));
-    }
+   
 }

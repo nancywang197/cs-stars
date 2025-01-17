@@ -9,8 +9,4 @@ public class Main {
         return sum;
     }
 
-    ;
-        int k = 3;
-        System.out.println(addElements(arr, k));
-    }
 }

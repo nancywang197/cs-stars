@@ -10,10 +10,6 @@ public class Main {
         return Arrays.stream(strNum.split("")).mapToInt(Integer::parseInt).sum() * neg;
     }
 
-    ;
-        System.out.println(Arrays.toString(orderByPoints(nums)));
-    }
-
     public static int[] orderByPoints(int[] nums) {
         Arrays.sort(nums, new Comparator<int[]>(){
             @Override

@@ -22,7 +22,4 @@ public class Main {
         return result;
     }
 
-    ;
-        System.out.println(sumSquares(numbers));
-    }
 }

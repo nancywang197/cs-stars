@@ -1,10 +1,5 @@
 public class Main {
 
-    ;
-        int[] list2 = {5, 6, 7, 8};
-
-        System.out.println(exchange(list1, list2));
-    }
 
     public static String exchange(int[] lst1, int[] lst2) {
         int oddInLst1 = countOdd(lst1);

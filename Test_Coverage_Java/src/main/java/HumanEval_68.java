@@ -1,9 +1,6 @@
 import java.util.*;
 
 public class Main {
-    ;
-        System.out.println(Arrays.toString(pluck(array)));
-    }
 
     public static Object[] pluck(int[] arr) {
         if (arr.length == 0) return new Object[0];

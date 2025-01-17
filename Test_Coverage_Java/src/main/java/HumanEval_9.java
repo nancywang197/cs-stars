@@ -19,8 +19,4 @@ public class Main {
 
         return result;
     }
-
-    ;
-        System.out.println(rollingMax(numbers));
-    }
 }

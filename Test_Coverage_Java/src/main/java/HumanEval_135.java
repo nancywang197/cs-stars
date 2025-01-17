@@ -9,7 +9,4 @@ public class Main {
     return ind;
   }
 
-  ;
-    System.out.println(canArrange(arr)); // Output: 3
-  }
 }

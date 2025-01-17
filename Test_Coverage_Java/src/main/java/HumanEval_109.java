@@ -35,10 +35,5 @@ public class Main {
         return true;
     }
 
-    ;
-        System.out.println(moveOneBall(testArray)); // prints: true
 
-        int[] emptyArray = {};
-        System.out.println(moveOneBall(emptyArray)); // prints: true
-    }
 }

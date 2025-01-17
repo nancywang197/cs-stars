@@ -9,7 +9,4 @@ public class Main {
         return ans;
     }
 
-    ;
-        System.out.println(smallestChange(arr));
-    }
 }

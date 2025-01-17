@@ -1,8 +1,5 @@
 public class Main {
 
-    ;
-        System.out.println(sjkjakasd(numbers));
-    }
 
     public static long skjjakasd(int[] lst) {
         boolean isPrime(int n) {

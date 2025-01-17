@@ -1,8 +1,5 @@
 public class Main {
 
-    ;
-        System.out.println(matchParens(lst));
-    }
 
     /**
      * Checks if it's possible to make a good string by concatenating two input strings.

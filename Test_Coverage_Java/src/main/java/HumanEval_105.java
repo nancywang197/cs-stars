@@ -38,8 +38,4 @@ public class Main {
         }
     }
 
-    ;
-        String[] sortedArr = sortByLength(arr);
-        System.out.println(Arrays.toString(sortedArr));
-    }
 }
