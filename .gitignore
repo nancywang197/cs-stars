@@ -5,6 +5,9 @@ __pycache__/
 rand.ipynb
 HumanEval3_q1.txt
 HumanEval3_q2.txt
+Translate_Java/functions/
+HumanEval3_java.txt
+Translate_Java/test.py
 
 # Ignore other common files
 *.pyc
