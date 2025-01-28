@@ -5,12 +5,20 @@ __pycache__/
 rand.ipynb
 HumanEval3_q1.txt
 HumanEval3_q2.txt
-Translate_Java/functions/
+Ollama_Translate_Java/functions/
 HumanEval3_java.txt
-Translate_Java/test.py
-Translate_Java/tests/
+Ollama_Translate_Java/test.py
+Ollama_Translate_Java/tests/
+Ollama_Translate_Java/test_rafactor.txt
 Test_Coverage_Java/target/
-
+Ollama_Translate_Java/refactor/
+Ollama_Translate_Java/regenerate
+Ollama_Translate_Java/test_refactor2.txt
+Test_Coverage_Java/
+Refactor_Java/
+Test_Coverage_Java/
+Test_Coverage_Java2/
+Ollama_Translate_Java/refactor_txt/
 # Ignore other common files
 *.pyc
 *.pyo

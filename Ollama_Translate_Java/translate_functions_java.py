@@ -1,7 +1,4 @@
-from langchain_community.llms import Ollama
-#LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. 
-#An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. 
-# To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+from langchain_ollama import OllamaLLM
 import re
 import os
 
@@ -37,16 +34,28 @@ def remove_main_method(code):
     return code[:start_index] + code[i:]
 
 # Initialize Ollama with chosen model
-llm = Ollama(model="llama3.2")
+llm = OllamaLLM(model="llama3.2")
 
-for i in range(2,164): 
+for i in range(164): 
     # 1. Extract Python function
     num = i
     file_path = f'Test_Coverage/processed_dataset/functions/HumanEval_{num}.py'
     function = extract_function_from_file(file_path)
+    class_name = f'HumanEval{num}'
     
     # 2. Query
-    query = f"Translate this Python function to Java:\n{function}" 
+    query = f'''Translate this Python function to Java:
+    {function} 
+
+    Requirements:
+    - Ensure the class name is {class_name}
+    - Add all necessary imports
+    - Do not generate additional code 
+    - Do not change the function signatures
+    - The output should be Java code only
+    - Make all methods public
+
+    '''
 
     # 3. Invoke the model with a query
     response = llm.invoke(query)
@@ -57,11 +66,11 @@ for i in range(2,164):
     func = remove_main_method(input)
 
     # 5. Write to file
-    folder_path = os.path.join("Test_Coverage_Java", "src", "main", "java", f'HumanEval_{num}.java')
+    folder_path = os.path.join("Test_Coverage_Java2", "src", "main", "java", f'HumanEval{num}.java')
     with open(folder_path, 'w', encoding="utf-8") as file:
         file.write(func)
 
-    copy_path = os.path.join("Translate_Java", "functions", f'HumanEval_{num}.txt')
+    copy_path = os.path.join("Ollama_Translate_Java", "regenerate", f'HumanEval{num}.txt')
     with open(copy_path, 'w', encoding="utf-8") as file:
         file.write(response)
     
