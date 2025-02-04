@@ -56,6 +56,9 @@ for i in range(164):
     - Make all methods public
 
     '''
+    #include in context example
+    #type mapping (alphatrans) 
+    # feedback (Yang - flakeydoctor)
 
     # 3. Invoke the model with a query
     response = llm.invoke(query)
