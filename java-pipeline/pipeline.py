@@ -12,10 +12,20 @@ def extract_function_from_file(file_path):
 PY_LANGUAGE = Language(tspython.language())
 parser = Parser(PY_LANGUAGE)
 
+def print_ast(node, indent=0):
+    # Print the node type and its range
+    print("  " * indent + f"{node.type} ({node.start_byte}-{node.end_byte})")
+    
+    # Recursively print all child nodes
+    for child in node.children:
+        print_ast(child, indent + 1)
+
 def extract_types(code):
     # Parse the Python code into a syntax tree
     tree = parser.parse(bytes(code, 'utf8'))
     root_node = tree.root_node
+
+    print_ast(root_node,0)
 
     # Function to walk through the syntax tree and extract type information
     def walk(node):
@@ -49,12 +59,12 @@ def extract_types(code):
                 # Check for parameters and their types
                 if child.type == "parameters":
                     for param in child.children:
-                        if param.type == "parameter":
+                        if param.type == "parameters":
                             param_info = {"param_name": None, "param_type": None}
                             for sub_child in param.children:
                                 if sub_child.type == "identifier":
                                     param_info["param_name"] = code[sub_child.start_byte:sub_child.end_byte]
-                                elif sub_child.type == "annotation":
+                                elif sub_child.type == "typed_parameter":
                                     param_info["param_type"] = code[sub_child.start_byte:sub_child.end_byte]
                             func_info["parameters"].append(param_info)
                 
