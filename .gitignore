@@ -17,6 +17,9 @@ Refactor_Java/
 Test_Coverage_Java2/
 Ollama_Translate_Java/Refactor
 Translate_code/
+java-pipeline/test.ipynb
+java-pipeline/dummy_code.py
+
 # Ignore other common files
 *.pyc
 *.pyo
