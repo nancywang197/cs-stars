@@ -7,8 +7,8 @@ import re
 #make class public
 
 # Define paths
-source_folder = "translated_data/tests"
-destination_folder = "tests_copy"
+source_folder = "translated_data/functions"
+destination_folder = "functions_copy"
 
 # Create the destination folder if it doesn't exist
 os.makedirs(destination_folder, exist_ok=True)
@@ -26,7 +26,7 @@ for filename in os.listdir(source_folder):
             content = source_file.readlines()
 
         
-        match = re.search(r"(?:human|Human)Eval_(\d{1,3})Test\.java", filename, re.IGNORECASE)
+        match = re.search(r"(?:human|Human)Eval_(\d{1,3})\.java", filename, re.IGNORECASE)
         if match:
             file_number = match.group(1)  # Extract the number as a string
 
@@ -36,8 +36,7 @@ for filename in os.listdir(source_folder):
 
             # Lines to prepend
             prepend_line = (
-                f"package com.example.python_to_java.tests_copy;\n"
-                f"import com.example.python_to_java.functions_copy.HumanEval_{file_number};\n"
+                f"package com.example.python_to_java.functions_copy;\n"
             )
 
             additional_imports = []
@@ -55,9 +54,20 @@ for filename in os.listdir(source_folder):
             # Combine all import lines
             prepend_line += "".join(additional_imports)
 
-            # Prepend the line and write to the new file
+            modified_content = []
+            for line in content:
+                # Look for class declaration
+                if re.match(r'^\s*class\s+', line):
+                    # Add public modifier if not already present
+                    if 'public' not in line:
+                        line = re.sub(r'(^\s*)(class\s+)', r'\1public \2', line)
+                modified_content.append(line)
+
+            # Write to the new file
             with open(destination_path, "w") as destination_file:
                 destination_file.write(prepend_line)
-                destination_file.writelines(content)
+                destination_file.writelines(modified_content)
+
+        
 
 print(f"Updated files have been saved in the '{destination_folder}' folder.")
