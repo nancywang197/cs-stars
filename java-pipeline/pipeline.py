@@ -1,5 +1,7 @@
 import tree_sitter_python as tspython
 from tree_sitter import Language, Parser
+import re
+import json
 
 # Helper functions
 def extract_function_from_file(file_path):
@@ -42,8 +44,26 @@ def extract_types(code):
     # Function to walk through the syntax tree and extract type information
     def walk(node):
         result = []
+        #Check for imports
+        if node.type in ("import_statement", "import_from_statement"):
+            module_info = {"modules": []}
+            module = {"module": None, "name": None}
+            read_import = False
+            for child in node.children:
+                if child.type == 'dotted_name':
+                    for sub_child in child.children:
+                        if sub_child.type == "identifier":
+                            if read_import:
+                                module["name"] = code[sub_child.start_byte:sub_child.end_byte]
+                            else:
+                                module["module"] = code[sub_child.start_byte:sub_child.end_byte]
+                elif child.type == "import":
+                    read_import = True
+            module_info["modules"].append(module)
+            result.append(module_info)
 
-        # Check for variable assignments
+        # Extract variable assignments
+        # TODO: fix data structuring
         if node.type == "assignment":
             var_info = {
                 "var_name" : None,
@@ -62,7 +82,7 @@ def extract_types(code):
                     var_info["var_type"] = child.type
             result.append(var_info)
 
-        # Handle function definitions
+        # Extract function defintion / parameters
         elif node.type == "function_definition":
             func_info = {
                 "function_name": None, 
@@ -107,21 +127,56 @@ def extract_types(code):
     # Start walking from the root node
     return walk(root_node)
 
+fp = 'java-pipeline/python_to_java_type_mapping.json'
+python_to_java = {}
+with open(fp, "r") as f:
+    python_to_java = json.load(f)
+
+# Type Inference
+def refactor_module(module_name, imported_name, type_str): 
+        # Regex pattern to match `imported_name` only when it's standalone or followed by `[`
+    pattern = rf'\b{re.escape(imported_name)}(?=\[)'
+
+    # Replacement string
+    replacement = f"{module_name}.{imported_name}"
+
+    # Perform the substitution
+    refactored_type = re.sub(pattern, replacement, type_str)
+
+    return refactored_type
 
 
-# Python code path and function
-num = 0
-file_path = f'Test_Coverage/processed_dataset/functions/HumanEval_{num}.py'
-python_code = extract_function_from_file(file_path)
+def translate_types(data: list[dict]):
+    inputs = data[:]
+    translations = []
+    modules = []
+    for input in inputs:
+        if "modules" in input:
+            modules = input["modules"]
+            print("Processed Modules")
+        elif "parameters" in input:
+            parameters = input["parameters"]
+            for i in range(len(parameters)):
+                param_translation = {'param_name': parameters[i]['param_name'], "param_type": None}
+                python_type = parameters[i]["param_type"]
+                java_type = 'No type found'
+                if python_type in python_to_java:
+                    java_type = python_to_java[python_type]
+                else :
+                    for pair in modules:
+                        module_name = pair["module"]
+                        imported_name = pair["name"]
+                        refactored_type = refactor_module(module_name, imported_name, python_type)
+                        if refactored_type in python_to_java:
+                            java_type = python_to_java[refactored_type]
+                param_translation["param_type"] = java_type
+                translations.append(param_translation)
 
-# Extract type information
-type_info = extract_types(python_code)
-
-# Display the extracted information
-for info in type_info:
-    print(info)
-
-
+        elif "var_name" in input:
+            print("Process variables")
+        
+    return translations
+    
 
 # Generate translation and corresponding test
 

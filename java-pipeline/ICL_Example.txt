@@ -1,0 +1,28 @@
+from typing import List
+def sumArrayGreater(data: List[float], UB: float) -> bool:
+    sum = 0
+    for i in range(len(data)):
+        sum += data[i]
+    
+    if sum > UB:
+        return True
+    return False
+
+
+The types translated to java are:
+[{'param_name': 'length', 'param_type': 'double[]'}, {'param_name': 'UB', 'param_type': 'float'}, {'param_name': 'sum', 'param_type': 'float'}]
+
+
+public class SumArrayGreater {
+    public static boolean sumArrayGreater(double[] data, double UB) {
+        double sum = 0;
+        for (double num : data) {
+            sum += num;
+        }
+        return sum > UB;
+    }
+}
+
+We translate data from List[float] in Python to double[] in Java... 
+
+
